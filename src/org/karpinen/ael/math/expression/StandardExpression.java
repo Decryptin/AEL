@@ -23,26 +23,27 @@ public class StandardExpression {
     private String      finalized;
     private boolean     valid        = true;
 
-    public StandardExpression(String expression, boolean needsValidation) {
+    public StandardExpression(String expression) {
         List<int[]> operators = new ArrayList<>();
-        getOperators(expression, operators);
-        if(needsValidation) {
-            startValidation(expression, operators);
-        }else{
-            operatorList = getOperators(expression, operators);
-            finalized = expression;
-            valid = true;
-        }
+        setOperators(expression, operators);
+        startValidation(expression, operators);
+    }
+
+    public void update(String expression) {
+        operatorList.clear();
+        setOperators(expression, operatorList);
+        finalized = expression;
+        valid = true;
     }
 
     private void startValidation(String e, List<int[]> operators) {
         removeInvalidStartingOperator(e, operators);
         removeInvalidEndOperator(e, operators);
-        getOperators(finalized, operatorList);
+        setOperators(finalized, operatorList);
         valid = validateSpecialOperators(finalized, operatorList);
     }
 
-    private synchronized List<int[]> getOperators(String e, List<int[]> operators) {
+    private synchronized void setOperators(String e, List<int[]> operators) {
         int operatorCount = 0;
         for (int i = 0; i < e.length(); i++) {
             for (int x = 2; x > 0; x--) {
@@ -68,7 +69,6 @@ public class StandardExpression {
                 }
             }
         }
-        return operators;
     }
 
     private void removeInvalidStartingOperator(String e, List<int[]> operators) {
