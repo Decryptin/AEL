@@ -46,8 +46,8 @@ public enum  OperatorType implements Operator {
         }
     };
 
-    private int    priority;
-    private String id;
+    private final int    priority;
+    private final String id;
 
     OperatorType(int priority, String id) {
         this.priority = priority;

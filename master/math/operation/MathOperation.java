@@ -1,18 +1,19 @@
 package org.karpinen.ael.math.operation;
 
 public class MathOperation {
+    private final MathOperatorFactory factory = new MathOperatorFactory();
 
     /*
     MathOperation takes an Operand[] object and evaluates the array based on an operator.
      */
 
-    private MathOperatorFactory factory  = new MathOperatorFactory();
-    private OperatorType        operator;
+    private final OperatorType  operator;
     private final Operand[]     operands;
     private String              expression;
 
     public MathOperation(String op , Operand[] operands) {
         this.operands   = operands;
+        MathOperatorFactory factory = new MathOperatorFactory();
         this.operator   = factory.getType(op);
         setExpression(op);
     }

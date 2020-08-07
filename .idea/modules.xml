@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArithmeticEvaluatorLib.iml" filepath="$PROJECT_DIR$/ArithmeticEvaluatorLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Development/Development.iml" filepath="$PROJECT_DIR$/Development/Development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/master/master.iml" filepath="$PROJECT_DIR$/master/master.iml" />
     </modules>
   </component>
 </project>

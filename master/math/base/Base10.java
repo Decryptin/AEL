@@ -39,6 +39,8 @@ public class Base10 implements Base {
             base2.append (dividend % 2);
             dividend /= 2;
         }
+
+        //If the @base2 object is null, we will set the value here.
         if(base2 == null) {
             this.base2 = new Base2(base2());
         }
