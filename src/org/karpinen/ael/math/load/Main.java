@@ -1,10 +1,9 @@
 package org.karpinen.ael.math.load;
 
-import org.karpinen.ael.math.expression.type.Parenthetical;
+import org.karpinen.ael.math.expression.StandardExpressionSolver;
 
 public class Main {
     public static void main(String[] args) {
-        Parenthetical parenthetical = new Parenthetical("(5*5(6+5(9/65)+5^3))");
-        parenthetical.solveExpression();
+        StandardExpressionSolver standardExpressionSolver = new StandardExpressionSolver("*1011011b+F1h^2*^/5+^^-3-5%3+");
     }
 }
