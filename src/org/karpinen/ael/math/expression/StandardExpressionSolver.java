@@ -15,7 +15,7 @@ public class StandardExpressionSolver implements Expression {
     @Override
     public double evaluate(String s) {
         String working = s;
-        StandardExpression e = new StandardExpression(working, true);
+        StandardExpression e = new StandardExpression(working);
         int highestPriority = getHighestPriority(e.getOperator(), e.getExpression());
         while(getNextOperator(e.getOperator(), highestPriority, e.getExpression()) != null) {
             int[] nextOperator = getNextOperator(e.getOperator(), highestPriority, e.getExpression());
@@ -34,9 +34,10 @@ public class StandardExpressionSolver implements Expression {
                 case "^/":
                     operands = getOperand(1, nextOperator, e.getOperator(), e.getExpression()); break;
             }
+
             MathOperation operation = new MathOperation(op, operands);
             working = working.replace(operation.getExpression(), String.valueOf(operation.evaluate()));
-            e = new StandardExpression(working, false);
+            e.update(working);
             highestPriority = getHighestPriority(e.getOperator(), e.getExpression());
             System.out.println("New Expression: " + working);
         }
