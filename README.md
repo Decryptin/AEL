@@ -29,8 +29,11 @@ _Prefixes on numeral system values that can change the value of the number prior
     - cosh (Hyperbola Cosine function)
     - sinh (Hyperbola Sine function)
     - tanh (Hyperbola Tangent function)
+    
+------
 
 _Here is a list of the notational systems and their identifiers._ 
+
 Decimal is used as the default system if no identifier is attached to a numeral value. 
         
     - Binary:      'b'
