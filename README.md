@@ -8,7 +8,9 @@ _NSL: Ok, that's cool and all but that's ~~**kinda lame bro**~~._
 
 _NSL: Ok bro, you got me like mad confused, what the heck.__ 
 
-* Ok here's an example, '10110+F6A/763.65'
+* Ok here's an example,
+
+        -'10110+F6A/763.65'
 
 - As you can see, there's one binary number(10110), one hexadecimal number(F6A), and one decimal number(763.65). You would be able to evaluate this expression and return the result in the desired numeral system! How cool is that!?
 - Not only can it evaluate expressions like this, but it supports preset equations and expressions such as The Quadratic Equation, The pythagorean theorem and many more!
