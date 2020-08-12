@@ -76,7 +76,7 @@ _The notation to do this in a text is as follows:_
 NSL does error checking on all conversions and evaluations, if it finds an error it will throw an exception. If you want to deal with these exceptions, you
 can setup a try/catch codeblock to catch them.
 
-        - The exception names will be added here when the progress further progresses. 
+        - The exception names will be added here when the project further progresses. 
     
         
 
