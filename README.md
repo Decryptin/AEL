@@ -20,6 +20,7 @@ _Let me tell you about the many features this library is planned to have_.
 
 ### Feature List!
 ------
+#### Expression Evaluation
 _Prefixes on numeral system values that can change the value of the number prior to expression evaluation. Below is a list of prefixes! Subject to change._
 
     - cos  (Cosine)
