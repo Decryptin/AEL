@@ -55,6 +55,21 @@ _Here are the available operators we can use in expressions._
          
       ~ '^^': Returns the square of the number system value following the operator. 
       ~ '^/': Returns the square root of the number system value following the operator. 
+      
+ _The notation to do this in a text environment is as follows:
+ 
+        - eval: <expression to evaluate>
+ 
+ * If we want to evaluate a preset formula such as the quadratic formula, we do that as follows:
+ 
+        - eval_preset: <labels for variables in the formula.>
+ 
+#### Conversion Between Numeral Systems
+
+Converting between number systems is very easy and simple to do.
+_The notation to do this in a text is as follows:_
+         
+         - trns: <numeral_system_value> -> <Base Identifier> (Found above).
   
     
         
