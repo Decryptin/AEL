@@ -18,7 +18,7 @@ _NSL: Ok bro, you got me like mad confused, what the heck.__
 _Let me tell you about the many features this library is planned to have_.
 
 ### Feature List!
-Prefixes on numeral system values that can change the value of the number prior to expression evaluation. Below is a list of prefixes! Subject to change.
+_Prefixes on numeral system values that can change the value of the number prior to expression evaluation. Below is a list of prefixes! Subject to change._
 
     - cos  (Cosine)
     - sin  (Sine)
@@ -30,5 +30,12 @@ Prefixes on numeral system values that can change the value of the number prior 
     - sinh (Hyperbola Sine function)
     - tanh (Hyperbola Tangent function)
 
+_Here is a list of the notational systems and their identifiers._ 
+        
+        - Binary:      'b'
+        - Octal:       'o'
+        - Decimal:     'd' ~ Decimal is used as the default system if no identifier is attached to a numeral value. 
+        - Hexadecimal: 'h'
+        
 
 
