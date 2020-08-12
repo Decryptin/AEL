@@ -56,7 +56,7 @@ _Here are the available operators we can use in expressions._
       ~ '^^': Returns the square of the number system value following the operator. 
       ~ '^/': Returns the square root of the number system value following the operator. 
       
- _The notation to do this in a text environment is as follows:
+ _The notation to do this in a text environment is as follows:_
  
         - eval: <expression to evaluate>
  
