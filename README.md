@@ -34,12 +34,27 @@ _Prefixes on numeral system values that can change the value of the number prior
 
 _Here is a list of the notational systems and their identifiers._ 
 
-Decimal is used as the default system if no identifier is attached to a numeral value. 
+* Decimal is used as the default system if no identifier is attached to a numeral value. 
         
     - Binary:      'b'
     - Octal:       'o'
     - Decimal:     'd' 
     - Hexadecimal: 'h'
+    
+_Here are the available operators we can use in expressions._
+
+* Standard Operators with their definitions.
+
+   ~ '+': Adds two numeral system values together.
+   ~ '-': Subtracts one numeral system value from another.
+   ~ '*': Multiplies one numeral system value by another.
+   ~ '/': Dividoes one numeral system value by another.
+   
+* Special Operators with their definitions
+
+    -
+  
+    
         
 
 
