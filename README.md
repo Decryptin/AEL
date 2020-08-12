@@ -1,1 +1,1 @@
-# Multi-System Intepreter (MSI)
+# Numeral-System Library.
