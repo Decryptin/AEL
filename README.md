@@ -1,2 +1,1 @@
-# AEL
- Arithmetic Evaluator Library
+# Multi-System Intepreter (MSI)
