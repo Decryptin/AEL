@@ -13,4 +13,4 @@ _NSL: Ok bro, you got me like mad confused, what the heck.__
 - As you can see, there's one binary number(10110), one hexadecimal number(F6A), and one decimal number(763.65). You would be able to evaluate this expression and return the result in the desired numeral system! How cool is that!?
 - Not only can it evaluate expressions like this, but it supports preset equations and expressions such as The Quadratic Equation, The pythagorean theorem and many more!
 
-__Let me tell you about the many features this library is planned to have__.
+_Let me tell you about the many features this library is planned to have_.
